@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>03. BLK-BUTTON-INTERRUPTION</AssemblyName>
-    <Name>03. BLK-BUTTON-INTERRUPTION</Name>
-    <RootNamespace>03. BLK-BUTTON-INTERRUPTION</RootNamespace>
+    <AssemblyName>04. BLKS-RANDOMS</AssemblyName>
+    <Name>04. BLKS-RANDOMS</Name>
+    <RootNamespace>04. BLKS-RANDOMS</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
