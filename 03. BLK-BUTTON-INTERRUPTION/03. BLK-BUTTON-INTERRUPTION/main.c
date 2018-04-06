@@ -17,10 +17,12 @@
 #define  SWITCH_PRESSED !(PINB & (1<<PINB7))
 
 ISR(PCINT0_vect){
+	
 	if(SWITCH_PRESSED)
 		LED_ON;
 	else
 		LED_OFF;
+		
 }
 
 int main(void){
