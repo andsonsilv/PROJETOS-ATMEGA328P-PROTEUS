@@ -96,6 +96,8 @@ int main(void){
 		    PORTB &= ~(1<<PORTB1);
     
 	}
+	
 	return 0;
+
 }
 
