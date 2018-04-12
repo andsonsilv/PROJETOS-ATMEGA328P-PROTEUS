@@ -71,6 +71,8 @@ void setup_uc(void){
 	PCICR |= (1<<PCIE0);
 	PCICR |= (1<<PCIE2);
 	
+	
+
 	/*Pin Change Interrupt MASK*/
 	/*bits 23 to 16*/
 	PCMSK2 = 0x01;
